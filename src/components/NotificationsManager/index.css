@@ -1,0 +1,176 @@
+.row.table-row {
+    border-top: 2px solid #EBF2F7;
+    padding-top: 20px;
+}
+.admin-card-header.user-manager-header {
+    padding-bottom: 2px;
+}
+table.table.admin-table th {
+    background: #f1f4f7;
+    white-space: nowrap;
+    border: none;
+    color: #B3B8BD;
+    font-family: 'Raleway Regular';
+    font-weight: 600;
+    font-size: 13px;
+    padding: 8px 15px;
+    font-family: "Raleway Semibold";
+
+}
+table.table.admin-table td {
+    padding: 15px;
+    font-size: 14px;
+    color: #52575D;
+    white-space: nowrap;
+    font-family: "Raleway Semibold";
+    vertical-align: middle;
+    border: none;
+}
+.username-td {
+    display: flex;
+    align-items: center;
+}
+.username-td p,.status{
+    font-size: 14px;
+    color: #52575D;
+    font-family: "Raleway Semibold";
+    margin-bottom: 0;
+}
+.status{
+    position: relative;
+    padding-left: 20px;
+}
+
+.status:before {
+    width: 10px;
+    height: 10px;
+    content: "";
+    background: black;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    border-radius: 50px;
+}
+ul.pagination.admin-pagination {
+    justify-content: center;
+}
+.r-modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+button.r-close {
+    border: none;
+    background: #049a9b;
+    color: white;
+    font-size: 20px;
+    line-height: 0;
+    padding: 5px;
+    border-radius: 50px;
+}
+p.r-heading {
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Raleway SemiBold';
+}
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: #049a9b;
+    background-color: #049a9b;
+}
+.custom-control-label::before {
+    border: #E3E9EF solid 1px;
+}
+ul.pagination.admin-pagination .page-link {
+    border: none;
+    font-size: 14px;
+    color: #52575D;
+    font-family: 'Raleway Bold';
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    justify-content: center;
+    margin: 0 3px;
+    border-radius: 8px;
+}
+ul.pagination.admin-pagination {
+    margin-top: 25px;
+}
+li.page-item.active-li a {
+    background: #049A9B;
+    color: white !important;
+}
+li.page-item.disabled a i {
+    color: #bdbdbd !important;
+}
+ul.pagination.admin-pagination .page-link i {
+    border: none;
+    font-size: 21px;
+    color: #52575D;
+    font-family: 'Raleway Bold';
+}
+.status.cancel-status:before {
+    background: #D14747;
+}
+.status.active-status:before {
+    background: #049A9B;
+}
+.status.hold-status:before {
+    background: #E3B25C;
+}
+.action-div-admin button {
+    border: none;
+    background: none;
+    color: #049A9B;
+    font-size: 20px;
+}
+button.delete {
+    color: #D14747;
+}
+.username-td img {
+    margin-right: 10px;
+    width: auto;
+    height: 35px;
+}
+table.table.admin-table th:first-child {
+    border-radius: 10px 0 0 10px;
+}
+table.table.admin-table th:last-child {
+    border-radius: 0px 10px 10px 0px;
+}
+table.table.admin-table tr:hover td {
+    background: #EAF2FF;
+}
+
+table.table.admin-table tr:hover td:first-child {
+    border-radius: 10px 0 0 10px;
+}
+
+table.table.admin-table tr:hover td:last-child {
+    border-radius: 0px 10px 10px 0px;
+}
+.table.admin-table .custom-control-label::before
+{
+    width:1.5rem;
+    height:1.5rem;
+    border-radius: .5rem;
+}
+table.table.admin-table .custom-control-label::after
+{
+    top: 0.6rem;
+    left: -1.1rem;
+    display: block;
+    width: 0.7rem;
+    height: 0.7rem;
+    content: "";
+    background: #FFF no-repeat 50%/50% 50%;
+}
+
+.new_custom_dispaly_none{
+    display: none;
+}

@@ -1,0 +1,304 @@
+.admin-topbar .dropdown-toggle::after {
+    display: none;
+}
+.search-dropdown{
+    position: absolute;
+    right: 100%;
+}
+.admin-topbar li.nav-item {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+span.active-notification-icon {
+	width: 15px;
+	height: 15px;
+	background: #049a9b;
+	position: absolute;
+	top: 4px;
+	left: 23px;
+	border-radius: 50px;
+	font-size: 10px;
+	color: white;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.admin-topbar .dropdown-menu{
+    left: -50px !important;
+}
+.notification-div{
+    width: 230px;
+    padding: 0px 15px;
+    border-radius: 5px;
+}
+.notification-div .row .col-md-12:last-child .review-div {
+    margin-bottom: 0;
+}
+
+.notification-div .review-detail p {
+    margin-bottom: 8px;
+}
+.admin-topbar li.nav-item.login-btn-li {
+    margin-left: unset;
+}
+.admin-topbar-wrap {
+    padding: 15px 0;
+}
+.admin-topbar .dropdown-menu {
+    top: calc(100% + 10px);
+    box-shadow: 0px 5px 25px #52575d1a;
+    border-radius: 5px;
+}
+
+.admin-topbar li.nav-item.login-btn-li {
+    margin-left: 8px;
+}
+
+a.nav-link.dropdown-toggle.icon-a {
+    background: white;
+    margin-left: 15px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    color: #52575D !important;
+    position: relative;
+}
+
+a.nav-link.dropdown-toggle.icon-a.search-icon {
+    color: #D0DBE5 !important;
+}
+.search-drop-div {
+    display: flex;
+    padding: 0px;
+}
+.search-drop-div input {
+    padding: 7px 15px;
+    font-family: 'Raleway Semibold';
+    font-size: 14px;
+    border: 2px solid #EBEDED;
+    border-radius: 0px 6px 6px 0px;
+    min-width: 300px;
+}
+.search-drop-div select {
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #A6ADB4;
+    font-family: 'Raleway Semibold';
+    background: #EBEDED;
+    border-radius: 6px 0 0 6px;
+    border: none;
+    padding: 10px;
+}
+.search-drop-div select option{
+   background: white;
+}
+.logoLink img{
+    width: auto;
+    height: 40px;
+}
+
+.adminLink img{
+    width: auto;
+    height: 50px;
+    margin-left: 30px;
+}
+
+
+ul.menuUl li a {
+    letter-spacing: 0px;
+    font-family: 'Raleway Regular';
+    font-size: 15px;
+}
+
+.dropdown-menu.dropdownMenu.search-bar {
+    top: 3px;
+    right: 100% !important;
+    left: unset !important;
+    padding: 0;
+}
+.menuBar{
+    background: white !important;
+}
+.dropdownMenu{
+    background: white;
+    border: none;
+    border-radius: 0px 0px 6px 6px;
+    top: calc(100% + 20px);
+}
+ul.menuUl .dropdownMenu a{
+    letter-spacing: 0px;
+    color: #000000;
+    font-family: 'Raleway BOld'!important;
+    padding: 6px 17px;
+    font-size: 13px;
+}
+
+li.nav-item.dropdown.login-btn-li.login-btn-li-2.dropdownDiv {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 1168px) {
+    .adminLink img {
+        margin-left: 0;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .menuBar{
+        justify-content: flex-start;
+    }
+    .adminLink img{
+        width: auto;
+        height: 50px;
+        margin-left: 20px;
+    }
+    .admin-topbar .dropdown-menu {
+        right: 0 !important;
+        left: unset !important;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .main-section
+    {
+        margin-top:0px;
+    }
+    .search-dropdown {
+        position: absolute;
+        right: -63px;
+        top: calc(100% + 10px);
+        z-index: 99;
+    }
+    a.nav-link.dropdown-toggle.icon-a {
+        background: white;
+        margin-right: 0px;
+        margin-left: auto;
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        color: #52575D !important;
+        position: relative;
+    }
+    .search_button_topbar {
+        margin-left: 10px !important;
+        width: 35px !important;
+        height: 35px !important;
+        font-size: 22px !important;
+        margin-right: 10px !important;
+    }
+    li.nav-item.dropdown.login-btn-li.login-btn-li-2.dropdownDiv img {
+        width: auto !important;
+        max-width: none !important;
+        height: 30px;
+    }
+    li.nav-item.dropdown.login-btn-li.login-btn-li-2.dropdownDiv {
+        margin-left: 1px;
+    }
+
+    .adminLink{
+        display: none;
+    }
+    .adminLink img{
+        height: 40px;
+    }
+    .logoLink img{
+        width: auto;
+        height: 45px;
+    }
+    .stat-div
+    {
+        text-align:center;
+    }
+    .stat-div .stat
+    {
+        text-align:center;
+        flex: inherit;
+    }
+    .stat-div .stat h3
+    {
+        text-align:left;
+        font-size: 40px;
+    }
+    .stat-div i
+    {
+        font-size: 60px !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .admin-topbar nav {
+        padding: 10px 0;
+    }
+    .logoLink img {
+        width: auto;
+        height: 40px;
+    }
+}
+.search_button_topbar{
+    color: #52575d !important;
+    background: white;
+    margin-left: 15px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    position: relative;   
+}
+.notification_div_topbar{
+    cursor: pointer;
+}
+.notification_div_topbar:hover{
+    color: #049a9b !important;
+}
+
+@media screen  and (max-width: 500px){
+    li.nav-item.dropdown.dropdownDiv.searchli {
+        position: unset;
+    }
+    .admin-topbar .dropdown-menu {
+        right: -50px !important;
+        left: unset !important;
+    }
+    .search-dropdown {
+        position: absolute;
+        right: 0;
+        top: calc(100% + 10px);
+        z-index: 99;
+        width: 100%;
+    }
+    .search-drop-div input {
+        min-width: auto;
+        flex: 1;
+        width: 100%;
+    }
+    .search-drop-div select {
+        font-size: 13px;
+        padding: 5px;
+        width: 90px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .logoLink img {
+        width: auto;
+        height: 30px;
+    }
+    button.navbar-toggler i {
+        font-size: 30px;
+        color: black;
+    }
+}

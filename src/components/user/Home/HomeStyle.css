@@ -1,0 +1,211 @@
+.rating-div input[type='radio'] {
+    /* opacity: 0; */
+    display: none;
+}
+.rating-div i {
+    color: #C0D4EA;
+    margin-right: 3px;
+    font-size: 16px;
+}
+.rating-div label {
+    margin-bottom: 0;
+}
+.rate-1 label:nth-child(1) i {
+    color: #d14747;
+}
+
+.rate-2 label:nth-child(1) i,
+.rate-2 label:nth-child(2) i {
+    color: #d16747;
+}
+
+.rate-3 label:nth-child(1) i,
+.rate-3 label:nth-child(2) i,
+.rate-3 label:nth-child(3) i {
+    color: #d18747;
+}
+
+.rate-4 label:nth-child(1) i,
+.rate-4 label:nth-child(2) i,
+.rate-4 label:nth-child(3) i,
+.rate-4 label:nth-child(4) i {
+    color: #d1a747;
+}
+
+.rate-5 label:nth-child(1) i,
+.rate-5 label:nth-child(2) i,
+.rate-5 label:nth-child(3) i,
+.rate-5 label:nth-child(4) i,
+.rate-5 label:nth-child(5) i {
+    color: #d1b747;
+}
+
+.rate-6 label:nth-child(1) i,
+.rate-6 label:nth-child(2) i,
+.rate-6 label:nth-child(3) i,
+.rate-6 label:nth-child(4) i,
+.rate-6 label:nth-child(5) i,
+.rate-6 label:nth-child(6) i {
+    color: #d1c747;
+}
+
+.rate-7 label:nth-child(1) i,
+.rate-7 label:nth-child(2) i,
+.rate-7 label:nth-child(3) i,
+.rate-7 label:nth-child(4) i,
+.rate-7 label:nth-child(5) i,
+.rate-7 label:nth-child(6) i,
+.rate-7 label:nth-child(7) i {
+    color: #8d9b04;
+}
+
+.rate-8 label:nth-child(1) i,
+.rate-8 label:nth-child(2) i,
+.rate-8 label:nth-child(3) i,
+.rate-8 label:nth-child(4) i,
+.rate-8 label:nth-child(5) i,
+.rate-8 label:nth-child(6) i,
+.rate-8 label:nth-child(7) i,
+.rate-8 label:nth-child(8) i {
+    color: #4f9b04;
+}
+
+.rate-9 label:nth-child(1) i,
+.rate-9 label:nth-child(2) i,
+.rate-9 label:nth-child(3) i,
+.rate-9 label:nth-child(4) i,
+.rate-9 label:nth-child(5) i,
+.rate-9 label:nth-child(6) i,
+.rate-9 label:nth-child(7) i,
+.rate-9 label:nth-child(8) i,
+.rate-9 label:nth-child(9) i {
+    color: #559b04;
+}
+
+.rate-10 label:nth-child(1) i,
+.rate-10 label:nth-child(2) i,
+.rate-10 label:nth-child(3) i,
+.rate-10 label:nth-child(4) i,
+.rate-10 label:nth-child(5) i,
+.rate-10 label:nth-child(6) i,
+.rate-10 label:nth-child(7) i,
+.rate-10 label:nth-child(8) i,
+.rate-10 label:nth-child(9) i,
+.rate-10 label:nth-child(10) i{
+    color: #049b2c;
+}
+.mainWrapReview {
+    height: 300px;
+    overflow: hidden;
+    opacity: 0.2;
+    user-select: none;
+    pointer-events: none;
+}
+.advance-filter > a {
+    color: white;
+    background: #111237;
+    padding: 10px 15px;
+    border-radius: 24px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.advance-filter {
+    margin: 30px;
+}
+
+div#advanceFilter .modal-content {
+    border-radius: 5px;
+    box-shadow: none !important;
+    border: none;
+    overflow: hidden;
+    background: #049A9B !important;
+}
+
+div#advanceFilter .modal-header {
+    background: #111237;
+    border-color: transparent;
+    padding: 10px 15px;
+}
+div#advanceFilter .modal-footer{
+    border-color: transparent;
+    justify-content: center;
+}
+
+button.close {
+    opacity: 1;
+    text-shadow: none;
+    color: white;
+    font-size: 25px;
+}
+
+button.apply-filter-btn {
+    background: #111237 !important;
+    border-color: #111237 !important;
+    padding: 8px 30px;
+    border-radius: 6px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+div#advanceFilter p.main-fomr-heading {
+    color: #FAFAFA;
+    font-family: 'Raleway Light';
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: center;
+}
+div#advanceFilter h2.modal-main-heading {
+    color: #FAFAFA !important;
+    font-family: 'Raleway Light' !important;
+    font-size: 24px !important;
+}
+div#advanceFilter .modal-body *
+{
+    color: black;
+    font-family: 'Raleway Semibold';
+}
+div#advanceFilter .modal-body .form-group
+{
+    margin-bottom: 30px;
+}
+div#advanceFilter .modal-body input
+{
+    background: #f2f2f2;
+    border-color: #f2f2f2;
+    padding: 10px 20px;
+    height: auto;
+    font-size: 15px;
+    border-radius: 6px;
+}
+div#advanceFilter .modal-body label {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Raleway Light';
+}
+div#advanceFilter form
+{
+    margin-top: 10px;
+    text-align: left;
+}
+p.modal-group-heading {
+    color: white !important;
+    margin-left: -20px;
+}
+div#advanceFilter .modal-body
+{
+    padding: 30px 60px;
+}
+p.main-fomr-heading
+{
+    font-size: 19px;
+    margin-top: 10px;
+    margin-bottom: 38px;
+    font-family: 'Raleway Semibold';
+    text-align: left;
+}
+div#advanceFilter .modal-content h4.modal-title
+{
+    color: #fff;
+    font-family: 'Raleway Light';
+    font-size: 18px;
+}

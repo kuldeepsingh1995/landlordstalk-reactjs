@@ -1,0 +1,52 @@
+.review-div {
+    display: flex;
+    align-items: flex-start;
+}
+.review-div img {
+    width: auto;
+    height: 35px;
+    margin-right: 10px;
+}
+a.more-reviews {
+    border: 2px solid #E3E9EF;
+    padding: 2px 2px 0;
+    font-size: 30px;
+    color: #B3B8BD;
+    border-radius: 50%;
+    line-height: 1.1;
+    display: inline-block;
+}
+.review-detail h3 {
+    font-size: 16px;
+    color: #000000;
+    font-family: 'Raleway Semibold';
+}
+.review-detail p {
+    font-size: 14px;
+}
+.review-div {
+    border-bottom: 1px solid gainsboro;
+    margin-bottom: 15px;
+}
+.review-detail {
+    flex: 0 0 calc(100% - 40px);
+    width: calc(100% - 40px);
+}
+a.more-reviews i {
+    line-height: 0;
+}
+.review-detail p {
+    font-size: 14px;
+    width: 100%;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 1200px) {
+    .review-div {
+        border-bottom: 1px solid gainsboro;
+        margin-bottom: 15px;
+        width: 92%;
+    }
+}

@@ -1,0 +1,9 @@
+button.btn.btn-primary.loginFormBtn.tab-btn{
+    color: #049a9b  !important;
+}
+button.btn.btn-primary.loginFormBtn.tab-btn:hover{
+    color: white  !important;
+}
+button.btn.btn-primary.loginFormBtn.tab-btn.blog-btn{
+    color: #fff !important;
+}

@@ -1,0 +1,180 @@
+section.doesSection
+{
+    padding: 50px 0;
+    text-align: center;
+    background: #111237;
+    color: white;
+}
+h3.does-h
+{
+    font-size: 24px;
+    margin-bottom: 25px;
+    font-family: 'Raleway Bold';
+}
+h3.does-h span
+{
+    font-size: 24px;
+    margin-bottom: 25px;
+    font-family: 'Raleway Bold';
+    color: #049A9B;
+}
+section.main-header-banner.search-tenants-banner h3.does-h span
+{
+    color: #111237;
+}
+section.main-header-banner.search-tenants-banner.light-bg
+{
+    background: #F6F8F9;
+}
+section.main-header-banner.search-tenants-banner.light-bg h3.does-h
+{
+    margin-bottom: 50px;
+    color: #049a9b;
+}
+.what-card
+{
+    text-align: center;
+    color: white;
+    background: #111237;
+    padding: 40px 50px;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.what-card h2
+{
+    font-size: 20px;
+    font-family: 'Raleway Bold';
+}
+.what-card.what-light-2
+{
+    background: #049a9b;
+    color: black;
+}
+.what-card img
+{
+    width: auto;
+    height: 40px;
+    margin-bottom: 20px;
+}
+section.main-header-banner.search-tenants-banner h3.does-h
+{
+    margin-bottom: 50px;
+}
+section.doesSection p
+{
+    font-size: 16px;
+}
+p.count-p
+{
+    text-align: left;
+}
+img.sec-img
+{
+    width: auto;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+img.sec-logo-img
+{
+    margin-bottom: 20px;
+    width: auto;
+    height: 35px;
+    margin-top: -15px;
+}
+section.doesSection.does-light-2
+{
+    background: #049a9b;
+    color: white;
+}
+section.doesSection.does-light h3.does-h span
+{
+    color: #111237;
+}
+section.doesSection.does-light-2 h3.does-h span
+{
+    color: #111237;
+}
+button.dark-btn
+{
+    background: #111237;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-family: 'Raleway SemiBold';
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+button.green-btn
+{
+    background: #049a9b;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-family: 'Raleway SemiBold';
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+ 
+@media screen and (max-width: 992px)
+{
+    .what-card
+    {
+        padding: 30px;
+        height: 330px;
+        width: 330px;
+    }
+    .what-card p
+    {
+        font-size: 14px;
+    }
+    .what-card h2
+    {
+        font-size: 18px;
+    }
+    .what-card img
+    {
+        height: 30px;
+        margin-bottom: 10px;
+    }
+    .what-card
+    {
+        margin: auto;
+    }
+    .col-lg-6:nth-child(odd) .what-card
+    {
+        margin-left: 0;
+    }
+    .col-lg-6:nth-child(even) .what-card
+    {
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 768px)
+{
+
+}
+@media screen and (max-width: 500px)
+{
+    .col-lg-6:nth-child(odd) .what-card
+    {
+        margin-left: auto;
+    }
+    .col-lg-6:nth-child(even) .what-card
+    {
+        margin-right: auto;
+    }
+}
+@media screen and (max-width: 400px)
+{
+    .what-card {
+        zoom: .7;
+    }
+}

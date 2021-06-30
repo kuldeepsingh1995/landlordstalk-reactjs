@@ -1,0 +1,192 @@
+.edit-profile-banner {
+    background: #F6F8F9;
+}
+
+section.main-header-banner.edit-profile-banner label {
+    color: #111237;
+    font-family: 'Raleway Semibold';
+}
+
+section.main-header-banner.edit-profile-banner button.btn.btn-primary.loginFormBtn {
+    display: inline-block !IMPORTANT;
+    width: auto;
+    min-width: 300px;
+    background: #049a9b !important;
+    color: white !important;
+    margin-bottom: 50px;
+}
+
+section.main-header-banner.edit-profile-banner h1.main-h1 {
+    color: #111237 !important;
+    font-family: 'Raleway Regular';
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.drop-zone {
+    max-width: 100%;
+    height: auto;
+    padding: 50px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    color: #cccccc;
+    border: 2px dashed #C2CDDA;
+    border-radius: 10px;
+}
+
+.drop-zone--over {
+    border-style: solid;
+}
+
+.file-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+p.file-name {
+    color: #77839F;
+    font-size: 14px;
+    font-family: 'Raleway Semibold';
+    margin-bottom: 0;
+}
+img.check-file {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: auto;
+    height: 20px;
+}
+p.file-size {
+    color: #979FB8;
+    font-size: 14px;
+    margin-top: 1px;
+    margin-bottom: 0;
+}
+
+.file-detail {
+    flex: 1;
+    padding-left: 10px;
+    position: relative;
+}
+.drop-file-list {
+    padding: 15px 0 0;
+}
+span.drop-zone__prompt {
+    color: #555A6B;
+    font-size: 18px;
+    font-family: 'Raleway Semibold';
+    margin-bottom: 10px;
+    display: block;
+}
+
+button.upload-btn {
+    background: #049A9B;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-family: 'Raleway Semibold';
+    border-radius: 5px;
+}
+
+p.or-drop {
+    color: #666666;
+    font-size: 17px;
+    font-family: 'Raleway Regular';
+}
+
+.drop-zone__input {
+    display: none;
+}
+
+.drop-zone > img {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.drop-zone.dropover-div {
+    border-color: #049a9b;
+}
+.drop-zone__thumb {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #cccccc;
+    background-size: cover;
+    position: relative;
+}
+
+.drop-zone__thumb::after {
+    content: attr(data-label);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 0;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.75);
+    font-size: 14px;
+    text-align: center;
+}
+
+.drop-div {
+    box-shadow: 0px 3px 6px #0000004d;
+    background: white;
+    border-radius: 6px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 992px) {
+    .drop-div {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    section.main-header-banner.edit-profile-banner button.btn.btn-primary.loginFormBtn {
+        min-width: 100%;
+    }
+    .drop-zone {
+        padding: 40px 10px;
+    }
+    .drop-div {
+        width: 100%;
+    }
+    span.drop-zone__prompt {
+        font-size: 16px;
+    }
+    p.file-name {
+        font-size: 13px;
+    }
+    button.upload-btn {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+    p.file-size {
+        font-size: 12px;
+    }
+    img.check-file {
+        width: auto;
+        height: 15px;
+    }
+    .file-item > img {
+        width: auto;
+        height: 25px;
+    }
+    .file-detail {
+        padding-right: 18px;
+    }
+}
+#output_image_container{
+    display: none;
+}
+.drop-zone:-moz-drag-over {
+    border: 2px dashed red;
+}

@@ -1,0 +1,80 @@
+section.doesSection
+{
+    padding: 50px 0;
+    text-align: center;
+    background: #111237;
+    color: white;
+}
+h3.does-h
+{
+    font-size: 24px;
+    margin-bottom: 25px;
+    font-family: 'Raleway Bold';
+}
+h3.does-h span
+{
+    font-size: 24px;
+    margin-bottom: 25px;
+    font-family: 'Raleway Bold';
+    color: #049A9B;
+}
+section.main-header-banner.search-tenants-banner h3.does-h span
+{
+    color: #111237;
+}
+section.main-header-banner.search-tenants-banner h3.does-h
+{
+    margin-bottom: 50px;
+}
+section.doesSection p
+{
+    font-size: 16px;
+}
+p.count-p
+{
+    text-align: left;
+}
+img.sec-img
+{
+    width: auto;
+    height: 80px;
+    margin-bottom: 20px;
+}
+img.sec-logo-img
+{
+    margin-bottom: 20px;
+    width: auto;
+    height: 35px;
+    margin-top: -15px;
+}
+section.doesSection.does-light
+{
+    background: #F6F8F9;
+    color: black;
+}
+img.sec-logo-img-2
+{
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+section.doesSection.contactSection
+{
+    padding: 80px 0;
+}
+button.btn.btn-primary.loginFormBtn.bg-full
+{
+    background: #049A9B !IMPORTANT;
+    color: white !important;
+}
+@media screen and (max-width: 500px)
+{
+    img.sec-logo-img-2 {
+        width: auto;
+        height: 40px;
+        margin-top: -10px;
+    }
+    section.doesSection p
+    {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,28 @@
+section.doesSection
+{
+    padding: 50px 0;
+    text-align: center;
+    background: #111237;
+    color: white;
+}
+h3.does-h
+{
+    font-size: 24px;
+    margin-bottom: 25px;
+    font-family: 'Raleway Bold';
+}
+h3.does-h span
+{
+    font-size: 24px;
+    margin-bottom: 25px;
+    font-family: 'Raleway Bold';
+    color: #049A9B;
+}
+section.doesSection p
+{
+    font-size: 16px;
+}
+p.count-p
+{
+    text-align: left;
+}

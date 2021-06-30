@@ -1,0 +1,89 @@
+.logoLink img {
+    width: auto;
+    height: 40px;
+}
+
+.adminLink img {
+    width: auto;
+    height: 50px;
+    margin-left: 30px;
+}
+
+
+ul.menuUl li a {
+    letter-spacing: 0px;
+    font-size: 15px;
+}
+
+.menuBar {
+    background: white !important;
+}
+
+.dropdownMenu {
+    background: rgb(246 248 249);
+    border: none;
+    border-radius: 0px 0px 6px 6px;
+    top: calc(100% + 20px);
+}
+
+ul.menuUl .dropdownMenu a {
+    letter-spacing: 0px;
+    color: #000000;
+    font-family: 'Raleway BOld' !IMPORTANT;
+    padding: 6px 17px;
+    font-size: 13px;
+}
+
+.dropdownDiv {
+
+}
+
+
+@media screen and (max-width: 1168px) {
+    .adminLink img {
+        margin-left: 0;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .menuBar {
+        justify-content: space-between;
+    }
+
+    .adminLink img {
+        width: auto;
+        height: 50px;
+        margin-left: 20px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .adminLink {
+        display: none;
+    }
+
+    .adminLink img {
+        height: 40px;
+    }
+
+    .menuBar {
+        justify-content: flex-start;
+    }
+
+    .logoLink img {
+        width: auto;
+        height: 40px;
+        margin-left: 15px;
+    }
+    .logoLink{
+        margin-right: 0;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+}
+

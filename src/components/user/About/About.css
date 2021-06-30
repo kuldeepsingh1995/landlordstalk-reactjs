@@ -1,0 +1,120 @@
+section.doesSection
+{
+    padding: 50px 0;
+    text-align: center;
+    background: #111237;
+    color: white;
+}
+h3.does-h
+{
+    font-size: 24px;
+    margin-bottom: 25px;
+    font-family: 'Raleway Bold';
+}
+h3.does-h span
+{
+    font-size: 24px;
+    margin-bottom: 25px;
+    font-family: 'Raleway Bold';
+    color: #049A9B;
+}
+section.main-header-banner.search-tenants-banner h3.does-h span
+{
+    color: #111237;
+}
+.what-card
+{
+    text-align: center;
+    color: white;
+    background: #111237;
+    padding: 40px 50px;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.what-card h2
+{
+    font-size: 20px;
+    font-family: 'Raleway Bold';
+}
+.what-card.what-light
+{
+    background: white;
+    color: black;
+}
+.what-card img
+{
+    width: auto;
+    height: 40px;
+    margin-bottom: 20px;
+}
+section.main-header-banner.search-tenants-banner h3.does-h
+{
+    margin-bottom: 50px;
+}
+section.doesSection p
+{
+    font-size: 16px;
+}
+p.count-p
+{
+    text-align: left;
+}
+img.sec-img
+{
+    width: auto;
+    height: 80px;
+    margin-bottom: 20px;
+}
+img.sec-logo-img
+{
+    margin-bottom: 20px;
+    width: auto;
+    height: 35px;
+    margin-top: -15px;
+}
+section.doesSection.does-light
+{
+    background: #F6F8F9;
+    color: black;
+}
+img.sec-logo-img-2
+{
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 992px)
+{
+    .what-card
+    {
+        padding: 30px;
+        height: 330px;
+        width: 330px;
+    }
+    .what-card p
+    {
+        font-size: 14px;
+    }
+    .what-card h2
+    {
+        font-size: 18px;
+    }
+    .what-card img
+    {
+        height: 30px;
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 400px)
+{
+    .what-card
+    {
+        zoom: .7;
+    }
+}
